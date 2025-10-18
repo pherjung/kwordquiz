@@ -18,31 +18,24 @@ BuildRequires: kf6-extra-cmake-modules
 BuildRequires: kf6-rpm-macros
 BuildRequires: kf6-ki18n-devel
 BuildRequires: kf6-kirigami
-# BuildRequires: Qt6Core
 BuildRequires: qt6-qtbase-devel
 
-## ?
 BuildRequires: gettext
-BuildRequires: libappstream-glib
-BuildRequires: qt6-widgets
-BuildRequires: qt6-printsupport
-BuildRequires: qt6-quick
-BuildRequires: qt7-quickcontrols2
-BuildRequires: qt6-qml
-# BuildRequires: Qt6Svg
+#BuildRequires: libappstream-glib
+#BuildRequires: qt6-widgets
+#BuildRequires: qt6-printsupport
+#BuildRequires: qt6-quick
+#BuildRequires: qt6-quickcontrols2
+#BuildRequires: qt6-qml
 BuildRequires: qt6-qtsvg-devel
-# BuildRequires: Qt6Multimedia
 BuildRequires: qt6-qtmultimedia-devel
-buildrequires: qt6-xml
-# BuildRequires: KF6Config
+#buildrequires: qt6-xml
 BuildRequires: kf6-kconfig-devel
-BuildRequires: kf6-doctools
-BuildRequires: kf6-newstuff
-# BuildRequires: KF6DBusAddons
+#BuildRequires: kf6-doctools
+#BuildRequires: kf6-newstuff
 BuildRequires: kf6-kdbusaddons-devel
-# BuildRequires: KF6KirigamiAddons
 BuildRequires: kf6-kirigami-addons-devel
-BuildRequires: libkeduvocdocument-devel >= %{majmin_ver_kf6}
+#BuildRequires: libkeduvocdocument-devel >= %{majmin_ver_kf6}
 
 ## Check
 
