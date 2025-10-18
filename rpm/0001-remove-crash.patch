@@ -21,7 +21,7 @@ index 49089d2..204a565 100644
 -#include <KCrash>
  #include <KLocalizedString>
  #include <qstringliteral.h>
-@@ -105,8 +105,6 @@ int main(int argc, char *argv[])
+@@ -105,8 +104,6 @@ int main(int argc, char *argv[])
      KDBusService service(KDBusService::Unique);
  #endif
  
