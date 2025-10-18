@@ -24,21 +24,21 @@ BuildRequires: qt6-qtbase-devel
 ## ?
 BuildRequires: gettext
 BuildRequires: libappstream-glib
-BuildRequires: Qt6Widgets
-BuildRequires: Qt6PrintSupport
-BuildRequires: Qt6Quick
-BuildRequires: Qt7QuickControls2
-BuildRequires: Qt6Qml
+BuildRequires: qt6-widgets
+BuildRequires: qt6-printsupport
+BuildRequires: qt6-quick
+BuildRequires: qt7-quickcontrols2
+BuildRequires: qt6-qml
 # BuildRequires: Qt6Svg
 BuildRequires: qt6-qtsvg-devel
 # BuildRequires: Qt6Multimedia
 BuildRequires: qt6-qtmultimedia-devel
-BuildRequires: Qt6Xml
-BuildRequires: KF6Crash
+buildrequires: qt6-xml
+BuildRequires: kf6-crash
 # BuildRequires: KF6Config
 BuildRequires: kf6-kconfig-devel
-BuildRequires: KF6DocTools
-BuildRequires: KF6NewStuff
+BuildRequires: kf6-doctools
+BuildRequires: kf6-newstuff
 # BuildRequires: KF6DBusAddons
 BuildRequires: kf6-kdbusaddons-devel
 # BuildRequires: KF6KirigamiAddons
