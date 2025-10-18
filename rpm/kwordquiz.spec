@@ -8,6 +8,7 @@ License: GPL-2.0-or-later
 URL:     https://apps.kde.org/kwordquiz/
 Source:  https://download.kde.org/%{stable_kf6}/release-service/%{version}/src/%{name}-%{version}.tar.xz
 
+Patch0: 0001-remove-crash.patch
 ## upstream patches
 
 ## upstreamable patches
@@ -17,7 +18,7 @@ BuildRequires: desktop-file-utils
 BuildRequires: kf6-extra-cmake-modules
 BuildRequires: kf6-rpm-macros
 BuildRequires: kf6-ki18n-devel
-BuildRequires: kf6-kirigami
+BuildRequires: kf6-kirigami-devel
 BuildRequires: qt6-qtbase-devel
 
 BuildRequires: gettext
