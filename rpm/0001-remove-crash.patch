@@ -11,16 +11,17 @@ index 9ca872e..678290e 100644
      NewStuff
      Kirigami
 diff --git a/src/main.cpp b/src/main.cpp
-index 49089d2..204a565 100644
+index 49089d2..f3e963a 100644
 --- a/src/main.cpp
 +++ b/src/main.cpp
 @@ -14,7 +14,6 @@
  #include <QQuickWindow>
-
+ 
  #include <KAboutData>
 -#include <KCrash>
  #include <KLocalizedString>
  #include <qstringliteral.h>
+ 
 @@ -105,8 +104,6 @@ int main(int argc, char *argv[])
      KDBusService service(KDBusService::Unique);
  #endif
