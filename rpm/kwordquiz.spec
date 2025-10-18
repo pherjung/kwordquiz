@@ -34,7 +34,6 @@ BuildRequires: qt6-qtsvg-devel
 # BuildRequires: Qt6Multimedia
 BuildRequires: qt6-qtmultimedia-devel
 buildrequires: qt6-xml
-BuildRequires: kf6-crash
 # BuildRequires: KF6Config
 BuildRequires: kf6-kconfig-devel
 BuildRequires: kf6-doctools

@@ -1,0 +1,25 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 9ca872e..678290e 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -55,7 +55,6 @@ set_package_properties(Qt6 PROPERTIES
+ 
+ find_package(KF6 ${KF_MIN_VERSION} COMPONENTS
+     I18n
+-    Crash
+     Config
+     NewStuff
+     Kirigami
+diff --git a/src/main.cpp b/src/main.cpp
+index 49089d2..204a565 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -105,8 +105,6 @@ int main(int argc, char *argv[])
+     KDBusService service(KDBusService::Unique);
+ #endif
+ 
+-    KCrash::initialize();
+-
+ #ifdef Q_OS_WIN
+     QApplication::setStyle(QStringLiteral("breeze"));
+ #endif
